@@ -1,0 +1,13 @@
+[package]
+name = "rust-wa-protocol-proto"
+version = "0.1.0"
+edition = "2024"
+description = "Generated, low-level Rust Protobuf structs for the unofficial WhatsApp Web protocol."
+license = "MIT"
+repository = "https://github.com/forgeseer/rust-wa-protocol-proto"
+
+[dependencies]
+prost = "0.12"
+
+[build-dependencies]
+prost-build = "0.12"
