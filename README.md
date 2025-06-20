@@ -28,7 +28,7 @@ Since this crate is hosted on GitHub (and not yet on Crates.io), you can add it 
 
 ```toml
 [dependencies]
-rust-wa-protocol-proto = { git = "[https://github.com/forgeseer/rust-wa-protocol-proto.git](https://github.com/forgeseer/rust-wa-protocol-proto.git)", tag = "v0.1.0" }
+rust-wa-protocol-proto = { git = "https://github.com/forgeseer/rust-wa-protocol-proto.git", tag = "v0.1.0" }
 ```
 
 Be sure to replace `tag = "v0.1.0"` with the specific git tag or commit hash you wish to use for a stable build.
